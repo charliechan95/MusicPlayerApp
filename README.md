@@ -16,5 +16,10 @@ When loaded song from file dialog, the player plays the song only from file dial
 Workaround, exit the program restart the program, and choose folder import songs if playing songs from playlist folder.
 
 
+Credits:
+Background Image, pictures by Charlie Chan
+Default Song file (Composed by Charlie Chan)
+
+
 
 
