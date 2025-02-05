@@ -242,10 +242,18 @@ class musicplayer:
             song_name = self.playlist.get(selected_song_index)
             full_path = os.path.join(self.music_folder, song_name)
             self.label1['text'] = 'Song is playing.'
+            #if not os.path.exists(full_path):
+                #self.label1['text'] = 'File does not exist.'
+           # return
             
         else: 
-            self.filename
-            full_path = self.filename
+            self.play_music_from_file()
+            self.music_folder
+            full_path = self.music_folder
+            return
+            
+        
+        
             
 
             
@@ -253,7 +261,7 @@ class musicplayer:
             
             
             
-
+    
     
             
         
@@ -279,7 +287,10 @@ class musicplayer:
         else:
             self.label1['text'] = 'Please select a song from the playlist.'
 
+  
 
+
+    def play_music_from_file(self):
 
 
         if self.filename:
