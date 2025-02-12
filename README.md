@@ -1,7 +1,7 @@
 # MusicPlayerApp Created By Charlie Chan
 A music player app using python
 
-V1.2.0
+V1.2.1
 
 Features:
 Import songs from folder and select song, press play button to play music.
